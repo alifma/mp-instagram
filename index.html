@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
+  <title>MiniProject-Instagram</title>
   <meta name="google-signin-scope" content="profile email">
-  <meta name="google-signin-content_id"
+  <meta name="google-signin-client_id"
     content="460551883375-rji98pfou1o060r2a3nn96pdhl6390t5.apps.googleusercontent.com">
   <script src="https://apis.google.com/js/platform.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MiniProject-Instagram</title>
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="responsive.css">
 </head>
@@ -22,12 +22,12 @@
         </div>
         <div class="or">
           <div class="line"></div>
-          <p>Login</p>
+          <p>LOGIN</p>
           <div class="line"></div>
         </div>
         <div class="dif">
           <div class="gs">
-            <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+            <!-- <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div> -->
           </div>
           <div class="or logged onlylogged">
             <div class="line"></div>
@@ -71,6 +71,8 @@
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 </body>
 
 </html>

@@ -81,48 +81,48 @@ body {
     background-color: #efefef;
 }
 
-.wrapper.header .or p {
+.or p {
     color: #999;
     font-size: 12px;
 }
 
-.wrapper .dif .gs {
+.dif .gs {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.wrapper .dif .forgot {
+.dif .forgot {
     font-size: 12px;
     text-align: center;
     margin-top: 20px;
 }
 
-.wrapper .dif .forgot a {
+.dif .forgot a {
     color: #003569;
 }
 
-.wrapper .signup {
+.signup {
     margin-top: 10px 0 20px;
     padding: 25px 40px;
     text-align: center;
     color: #262626;
 }
 
-.wrapper.signup a {
+.signup a {
     color: #3897f0;
 }
 
-.wrapper .apps {
+.apps {
     text-align: center;
     color: #262626;
 }
 
-.wrapper .apps p {
+.apps p {
     margin-bottom: 20px;
 }
 
-.wrapper .apps a img {
+.apps a img {
     width: 135px;
     height: 40px;
     margin-bottom: 0 5px;
