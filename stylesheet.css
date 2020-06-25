@@ -1,3 +1,5 @@
+@import url(“https://fonts.googleapis.com/css?family=Roboto&display=swap”);
+
 * {
     margin: 0;
     padding: 0;
@@ -22,8 +24,8 @@ body {
 
 .wrapper .header .top,
 .wrapper .signup {
-    background-attachment: #fff;
-    background-origin: 1px solid #e6e6e6;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
     border-radius: 1px;
     padding: 40px 40px 20px;
 }
@@ -40,7 +42,7 @@ body {
 .wrapper .header .form .input_field .input {
     width: 100%;
     background: #fafafa;
-    background-origin: 1px solid #efefef;
+    border: 1px solid #efefef;
     font-size: 12px;
     border-radius: 3px;
     color: #262626;
@@ -48,13 +50,13 @@ body {
 }
 
 .wrapper .header .form .input_field .input_field:focus {
-    background-origin: 1px solid #b2b2b2;
+    border: 1px solid #b2b2b2;
 }
 
 .wrapper .header .form .btn {
     margin: 10px 0;
     background-color: #3897f0;
-    background-origin: 1px solid #3897f0;
+    border: 1px solid #3897f0;
     border-radius: 4px;
     text-align: center;
     padding: 5px;
@@ -73,14 +75,14 @@ body {
     margin: 15px 0 20 px;
 }
 
-.wrapper .header .or .line {
+.top .or .line {
     width: 105px;
     height: 2px;
-    background-attachment: #efefef;
+    background-color: #efefef;
 }
 
-.wrapper .header .or p {
-    columns: #999;
+.wrapper.header .or p {
+    color: #999;
     font-size: 12px;
 }
 
@@ -128,11 +130,13 @@ body {
 
 .footer {
     max-width: 935px;
-    width: 100px;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
+    line-height: 1.7;
 }
 
 .footer .links ul li {
@@ -140,12 +144,24 @@ body {
     margin-right: 10px;
 }
 
+.links {
+    text-align: center;
+}
 
-.footer .line ul li a {
-    color: #003569;
+.links .ul {
+
+    justify-content: center;
+    display: flex;
+}
+
+.footer .links ul li a {
+    color: #00376b;
     font-size: 12px;
+    font-weight: 600;
 }
 
 .footer .copyright {
+    margin: auto;
     color: #999;
+    font-weight: 600;
 }
