@@ -24,4 +24,10 @@ function hideDashboard() {
     for (i = 0; i <= x.length; i++) {
         x[i].classList.add('logged');
     }
+
+
+}
+
+function gotoDashboard() {
+    console.log('Dashboard button pressed');
 }
